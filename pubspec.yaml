@@ -4,13 +4,19 @@ description: Flutter app about spices and herbs
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  spices_herbs:
+    path: modules/spices_herbs
+  blends:
+    path: modules/blends
+  recipes:
+    path: modules/recipes
+  settings:
+    path: modules/settings
   flutter:
     sdk: flutter
-
-  cupertino_icons: 0.1.3
 
 dev_dependencies:
   pedantic: 1.9.0
