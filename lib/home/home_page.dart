@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:caravansary/blends/blends_page.dart';
 import 'package:caravansary/recipes/recipes_page.dart';
 import 'package:caravansary/settings/settings_page.dart';
-import 'package:caravansary/spices_herbs/spices_herbs_page.dart';
+import 'package:caravansary/spices/spices_page.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -12,7 +12,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   static const _tabs = [
-    SpicesHerbsPage(),
+    SpicesPage(),
     BlendsPage(),
     RecipesPage(),
     SettingsPage(),

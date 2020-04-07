@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SpicesHerbsPage extends StatelessWidget {
-  const SpicesHerbsPage();
+class SpicesPage extends StatelessWidget {
+  const SpicesPage();
 
   @override
   Widget build(BuildContext context) {
