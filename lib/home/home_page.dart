@@ -1,4 +1,5 @@
 import 'package:caravansary/injection/service_location.dart';
+import 'package:caravansary/quizzes/quizes_page.dart';
 import 'package:caravansary/spices/spices_notifier.dart';
 import 'package:flutter/material.dart';
 
@@ -20,6 +21,7 @@ class _HomePageState extends State<HomePage> {
     SpicesPage(),
     BlendsPage(),
     RecipesPage(),
+    QuizzesPage(),
     SettingsPage(),
   ];
   int _selectedIndex = 0;
@@ -49,6 +51,7 @@ class _HomePageState extends State<HomePage> {
             BottomNavigationBarItem(title: Text('Spices & Herbs'), icon: Icon(Icons.fastfood)),
             BottomNavigationBarItem(title: Text('Blends'), icon: Icon(Icons.category)),
             BottomNavigationBarItem(title: Text('Recipes'), icon: Icon(Icons.restaurant_menu)),
+            BottomNavigationBarItem(title: Text('Quizzes'), icon: Icon(Icons.videogame_asset)),
             BottomNavigationBarItem(title: Text('Settings'), icon: Icon(Icons.settings)),
           ],
           currentIndex: _selectedIndex,

@@ -9,9 +9,7 @@ class SpicesNotifier extends ChangeNotifier {
 
   SpicesState get state => _state;
 
-  SpicesNotifier(this._repository) {
-    init();
-  }
+  SpicesNotifier(this._repository);
 
   void init() async {
     _state = SpicesLoading();
