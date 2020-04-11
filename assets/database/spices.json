@@ -9,7 +9,8 @@
   },
   {
     "id": 3,
-    "name": "Allspice"
+    "name": "Allspice",
+    "imageUrl": "https://nuts.com/images/rackcdn/ed910ae2d60f0d25bcb8-80550f96b5feb12604f4f720bfefb46d.ssl.cf1.rackcdn.com/888bf463e10216ce-RGlLTefM-zoom.jpg"
   },
   {
     "id": 4,
@@ -57,7 +58,8 @@
   },
   {
     "id": 15,
-    "name": "Cardamon"
+    "name": "Cardamon",
+    "imageUrl": "https://www.savoryspiceshop.com/content/mercury_modules/cart/items/2/7/1/2713/xratio6x5-600.jpg,q1586586486.pagespeed.ic.eW-6VZFrQg.webp"
   },
   {
     "id": 16,
@@ -65,7 +67,8 @@
   },
   {
     "id": 17,
-    "name": "Cassia"
+    "name": "Cinnamon",
+    "imageUrl": "https://thesourcebulkfoods.com.au/wp-content/uploads/2017/09/80212-Cassia-Cinnamon-Quill.jpg"
   },
   {
     "id": 18,
@@ -93,7 +96,8 @@
   },
   {
     "id": 24,
-    "name": "Cloves"
+    "name": "Cloves",
+    "imageUrl": "https://nuts.com/images/rackcdn/ed910ae2d60f0d25bcb8-80550f96b5feb12604f4f720bfefb46d.ssl.cf1.rackcdn.com/afb3e1bc752ebcb5-OBHt-MQd-zoom.jpg"
   },
   {
     "id": 25,
@@ -257,7 +261,8 @@
   },
   {
     "id": 65,
-    "name": "Nutmeg"
+    "name": "Nutmeg",
+    "imageUrl": "https://www.savoryspiceshop.com/content/mercury_modules/cart/items/3/2/3/3231/xratio6x5-600.jpg,q1586586109.pagespeed.ic.Lx9_NsVSMK.webp"
   },
   {
     "id": 66,
@@ -333,7 +338,8 @@
   },
   {
     "id": 84,
-    "name": "Saffron"
+    "name": "Saffron",
+    "imageUrl": "https://cf.shopee.com.my/file/2de92c65c8e3c5775c959ad8099498dd"
   },
   {
     "id": 85,
@@ -341,90 +347,85 @@
   },
   {
     "id": 86,
-    "name": "Saffron"
-  },
-  {
-    "id": 87,
-    "name": "Sage"
-  },
-  {
-    "id": 88,
     "name": "Salt"
   },
   {
-    "id": 89,
+    "id": 87,
     "name": "Sansho"
   },
   {
-    "id": 90,
+    "id": 88,
     "name": "Sassafras"
   },
   {
-    "id": 91,
+    "id": 89,
     "name": "Savory"
   },
   {
-    "id": 92,
-    "name": "Sesame"
+    "id": 90,
+    "name": "Sesame",
+    "imageUrl": "https://100000epices.com/wp-content/uploads/2018/12/40.jpg"
   },
   {
-    "id": 93,
+    "id": 91,
     "name": "Sichuan Pepper"
   },
   {
+    "id": 92,
+    "name": "Star Anise",
+    "imageUrl": "https://nuts.com/images/rackcdn/ed910ae2d60f0d25bcb8-80550f96b5feb12604f4f720bfefb46d.ssl.cf1.rackcdn.com/5e02462635aacd58-tzpjpBj1-large.jpg"
+  },
+  {
+    "id": 93,
+    "name": "Sumac",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/819iaBbuk-L._SL1500_.jpg"
+  },
+  {
     "id": 94,
-    "name": "Star Anise"
-  },
-  {
-    "id": 95,
-    "name": "Sumac"
-  },
-  {
-    "id": 96,
     "name": "Tamarind"
   },
   {
-    "id": 97,
+    "id": 95,
     "name": "Tarragon"
   },
   {
-    "id": 98,
+    "id": 96,
     "name": "Tasmanian Papper"
   },
   {
-    "id": 99,
+    "id": 97,
     "name": "Thyme"
   },
   {
-    "id": 100,
+    "id": 98,
     "name": "Tomato Powder"
   },
   {
-    "id": 101,
+    "id": 99,
     "name": "Turmeric"
   },
   {
-    "id": 102,
+    "id": 100,
     "name": "Urfa"
   },
   {
-    "id": 103,
+    "id": 101,
     "name": "Vanilla"
   },
   {
-    "id": 104,
+    "id": 102,
     "name": "Wasabi"
   },
   {
-    "id": 105,
+    "id": 103,
     "name": "Za'atar"
   },
   {
-    "id": 106,
+    "id": 104,
     "name": "Zedoary"
   },
   {
-    "id": 107,
+    "id": 105,
     "name": "Zuta"
   }
 ]
