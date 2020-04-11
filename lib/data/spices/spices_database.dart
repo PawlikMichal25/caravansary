@@ -15,5 +15,9 @@ class SpicesDatabase {
 Future<List<Spice>> _parseSpices(String json) async {
   final jsonArray = jsonDecode(json) as List<dynamic>;
   final spices = jsonArray.map((dynamic spice) => Spice.fromJson(spice as Map<String, dynamic>)).toList();
-  return spices;
+
+  // TODO remove temporary skipping spices without images
+  final filtered = spices.where((spice) => spice.imageUrl != null).toList();
+
+  return filtered;
 }

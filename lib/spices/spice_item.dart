@@ -23,7 +23,7 @@ class SpiceItem extends StatelessWidget {
               ),
             ),
           ),
-          Image.network(imageUrl),
+          Image.network(spice.imageUrl),
         ],
       ),
     );
@@ -44,7 +44,3 @@ class SpiceItem extends StatelessWidget {
     );
   }
 }
-
-// TODO Delete this
-const imageUrl =
-    'https://nuts.com/images/rackcdn/ed910ae2d60f0d25bcb8-80550f96b5feb12604f4f720bfefb46d.ssl.cf1.rackcdn.com/5e02462635aacd58-tzpjpBj1-large.jpg';
