@@ -10,7 +10,7 @@
   {
     "id": 3,
     "name": "Allspice",
-    "imageUrl": "https://nuts.com/images/rackcdn/ed910ae2d60f0d25bcb8-80550f96b5feb12604f4f720bfefb46d.ssl.cf1.rackcdn.com/888bf463e10216ce-RGlLTefM-zoom.jpg"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/spices-86266.appspot.com/o/images%2Fspices%2Fallspice.jpg?alt=media"
   },
   {
     "id": 4,
@@ -59,7 +59,7 @@
   {
     "id": 15,
     "name": "Cardamon",
-    "imageUrl": "https://www.savoryspiceshop.com/content/mercury_modules/cart/items/2/7/1/2713/xratio6x5-600.jpg,q1586586486.pagespeed.ic.eW-6VZFrQg.webp"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/spices-86266.appspot.com/o/images%2Fspices%2Fcardamon.webp?alt=media"
   },
   {
     "id": 16,
@@ -68,7 +68,7 @@
   {
     "id": 17,
     "name": "Cinnamon",
-    "imageUrl": "https://thesourcebulkfoods.com.au/wp-content/uploads/2017/09/80212-Cassia-Cinnamon-Quill.jpg"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/spices-86266.appspot.com/o/images%2Fspices%2Fcassia_cinnamon.jpg?alt=media"
   },
   {
     "id": 18,
@@ -97,7 +97,7 @@
   {
     "id": 24,
     "name": "Cloves",
-    "imageUrl": "https://nuts.com/images/rackcdn/ed910ae2d60f0d25bcb8-80550f96b5feb12604f4f720bfefb46d.ssl.cf1.rackcdn.com/afb3e1bc752ebcb5-OBHt-MQd-zoom.jpg"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/spices-86266.appspot.com/o/images%2Fspices%2Fcloves.webp?alt=media"
   },
   {
     "id": 25,
@@ -262,7 +262,7 @@
   {
     "id": 65,
     "name": "Nutmeg",
-    "imageUrl": "https://www.savoryspiceshop.com/content/mercury_modules/cart/items/3/2/3/3231/xratio6x5-600.jpg,q1586586109.pagespeed.ic.Lx9_NsVSMK.webp"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/spices-86266.appspot.com/o/images%2Fspices%2Fnutmeg.jpeg?alt=media"
   },
   {
     "id": 66,
@@ -278,7 +278,8 @@
   },
   {
     "id": 69,
-    "name": "Paprika"
+    "name": "Paprika",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/spices-86266.appspot.com/o/images%2Fspices%2Fpaprika.webp?alt=media"
   },
   {
     "id": 70,
@@ -339,7 +340,7 @@
   {
     "id": 84,
     "name": "Saffron",
-    "imageUrl": "https://cf.shopee.com.my/file/2de92c65c8e3c5775c959ad8099498dd"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/spices-86266.appspot.com/o/images%2Fspices%2Fsaffron.jpg?alt=media"
   },
   {
     "id": 85,
@@ -363,8 +364,7 @@
   },
   {
     "id": 90,
-    "name": "Sesame",
-    "imageUrl": "https://100000epices.com/wp-content/uploads/2018/12/40.jpg"
+    "name": "Sesame"
   },
   {
     "id": 91,
@@ -373,12 +373,12 @@
   {
     "id": 92,
     "name": "Star Anise",
-    "imageUrl": "https://nuts.com/images/rackcdn/ed910ae2d60f0d25bcb8-80550f96b5feb12604f4f720bfefb46d.ssl.cf1.rackcdn.com/5e02462635aacd58-tzpjpBj1-large.jpg"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/spices-86266.appspot.com/o/images%2Fspices%2Fstar_anise.webp?alt=media"
   },
   {
     "id": 93,
     "name": "Sumac",
-    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/819iaBbuk-L._SL1500_.jpg"
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/spices-86266.appspot.com/o/images%2Fspices%2Fsumac.jpg?alt=media"
   },
   {
     "id": 94,

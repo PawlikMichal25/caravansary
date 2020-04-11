@@ -19,11 +19,15 @@ class SpiceItem extends StatelessWidget {
               padding: const EdgeInsets.only(left: 20.0),
               child: Text(
                 spice.name,
-                style: TextStyle(fontSize: 16.0, color: const Color(0xFF737373), fontFamily: 'Brasley'),
+                style: TextStyle(fontSize: 16.0, fontFamily: 'Brasley'),
               ),
             ),
           ),
-          Image.network(spice.imageUrl),
+          Image.network(
+            spice.imageUrl,
+            fit: BoxFit.cover,
+            width: 150,
+          ),
         ],
       ),
     );
@@ -34,7 +38,7 @@ class SpiceItem extends StatelessWidget {
       color: Colors.white,
       boxShadow: [
         BoxShadow(
-          color: Colors.grey.withOpacity(0.1),
+          color: Colors.grey.withOpacity(0.25),
           blurRadius: 10.0, // has the effect of softening the shadow
           spreadRadius: 5.0, // has the effect of extending the shadow
           offset: Offset(3.0, 3.0),
