@@ -1,3 +1,4 @@
+import 'package:caravansary/commons/resources/strings.dart';
 import 'package:caravansary/spices/spice_item.dart';
 import 'package:caravansary/spices/spices_notifier.dart';
 import 'package:caravansary/spices/spices_state.dart';
@@ -12,7 +13,7 @@ class SpicesPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('Spices & Herbs'),
+        title: Text(Strings.spicesAndHerbs),
       ),
       body: Selector<SpicesNotifier, SpicesState>(
         selector: (_, notifier) => notifier.state,

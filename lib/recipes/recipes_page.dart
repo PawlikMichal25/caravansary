@@ -1,3 +1,4 @@
+import 'package:caravansary/commons/resources/strings.dart';
 import 'package:flutter/material.dart';
 
 class RecipesPage extends StatelessWidget {
@@ -7,7 +8,7 @@ class RecipesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Recipes'),
+        title: Text(Strings.recipes),
       ),
       body: Container(),
     );

@@ -1,3 +1,4 @@
+import 'package:caravansary/commons/resources/strings.dart';
 import 'package:caravansary/injection/service_location.dart';
 import 'package:caravansary/quizzes/quizes_page.dart';
 import 'package:caravansary/spices/spices_notifier.dart';
@@ -48,11 +49,11 @@ class _HomePageState extends State<HomePage> {
         body: _tabs[_selectedIndex],
         bottomNavigationBar: BottomNavigationBar(
           items: [
-            BottomNavigationBarItem(title: Text('Spices & Herbs'), icon: Icon(Icons.fastfood)),
-            BottomNavigationBarItem(title: Text('Blends'), icon: Icon(Icons.category)),
-            BottomNavigationBarItem(title: Text('Recipes'), icon: Icon(Icons.restaurant_menu)),
-            BottomNavigationBarItem(title: Text('Quizzes'), icon: Icon(Icons.videogame_asset)),
-            BottomNavigationBarItem(title: Text('Settings'), icon: Icon(Icons.settings)),
+            BottomNavigationBarItem(title: Text(Strings.spicesAndHerbs), icon: Icon(Icons.fastfood)),
+            BottomNavigationBarItem(title: Text(Strings.blends), icon: Icon(Icons.category)),
+            BottomNavigationBarItem(title: Text(Strings.recipes), icon: Icon(Icons.restaurant_menu)),
+            BottomNavigationBarItem(title: Text(Strings.quizzes), icon: Icon(Icons.videogame_asset)),
+            BottomNavigationBarItem(title: Text(Strings.settings), icon: Icon(Icons.settings)),
           ],
           currentIndex: _selectedIndex,
           showSelectedLabels: false,
