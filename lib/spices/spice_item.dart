@@ -26,7 +26,7 @@ class SpiceItem extends StatelessWidget {
           Image.network(
             spice.imageUrl,
             fit: BoxFit.cover,
-            width: 150,
+            width: 140,
           ),
         ],
       ),

@@ -1,19 +1,15 @@
+import 'package:caravansary/commons/architecture/base_notifier.dart';
 import 'package:caravansary/data/spices/spices_repository.dart';
 import 'package:caravansary/spices/spices_state.dart';
-import 'package:flutter/material.dart';
 
-class SpicesNotifier extends ChangeNotifier {
+class SpicesNotifier extends BaseNotifier<SpicesState> {
   final SpicesRepository _repository;
-
-  SpicesState _state;
-
-  SpicesState get state => _state;
 
   SpicesNotifier(this._repository);
 
   void init() async {
-    _state = SpicesLoading();
+    updateState(SpicesLoading());
     final spices = await _repository.getAllSpices();
-    _state = SpicesSuccess(spices);
+    updateState(SpicesSuccess(spices));
   }
 }
