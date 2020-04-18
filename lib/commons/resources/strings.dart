@@ -1,4 +1,6 @@
 class Strings {
+  Strings._();
+
   static const caravansary = 'Caravansary';
   static const spicesAndHerbs = 'Spices & Herbs';
   static const blends = 'Blends';

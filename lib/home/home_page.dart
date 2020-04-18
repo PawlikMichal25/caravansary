@@ -1,3 +1,4 @@
+import 'package:caravansary/commons/resources/app_colors.dart';
 import 'package:caravansary/commons/resources/strings.dart';
 import 'package:caravansary/injection/service_location.dart';
 import 'package:caravansary/quizzes/quizes_page.dart';
@@ -55,13 +56,13 @@ class _HomePageState extends State<HomePage> {
             BottomNavigationBarItem(title: Text(Strings.quizzes), icon: Icon(Icons.videogame_asset)),
             BottomNavigationBarItem(title: Text(Strings.settings), icon: Icon(Icons.settings)),
           ],
+          onTap: _onItemClicked,
           currentIndex: _selectedIndex,
           showSelectedLabels: false,
           showUnselectedLabels: false,
-          selectedItemColor: Colors.red,
+          selectedItemColor: Colors.black,
           unselectedItemColor: Colors.white,
-          backgroundColor: Colors.amber,
-          onTap: _onItemClicked,
+          backgroundColor: AppColors.primaryColor,
           type: BottomNavigationBarType.fixed,
         ),
       ),
