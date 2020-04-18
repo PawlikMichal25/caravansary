@@ -7,8 +7,9 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
-  provider: 4.0.4
+  provider: 4.0.5
   get_it: 4.0.1
+  flutter_svg: 0.17.4
 
   flutter:
     sdk: flutter

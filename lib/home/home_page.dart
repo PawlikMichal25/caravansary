@@ -9,6 +9,7 @@ import 'package:caravansary/blends/blends_page.dart';
 import 'package:caravansary/recipes/recipes_page.dart';
 import 'package:caravansary/settings/settings_page.dart';
 import 'package:caravansary/spices/spices_page.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
@@ -50,8 +51,24 @@ class _HomePageState extends State<HomePage> {
         body: _tabs[_selectedIndex],
         bottomNavigationBar: BottomNavigationBar(
           items: [
-            BottomNavigationBarItem(title: Text(Strings.spicesAndHerbs), icon: Icon(Icons.fastfood)),
-            BottomNavigationBarItem(title: Text(Strings.blends), icon: Icon(Icons.category)),
+            BottomNavigationBarItem(
+              title: Text(Strings.spicesAndHerbs),
+              icon: SvgPicture.asset(
+                'assets/images/ic_spices.svg',
+                width: 24,
+                height: 24,
+                color: _selectedIndex == 0 ? Colors.black : Colors.white,
+              ),
+            ),
+            BottomNavigationBarItem(
+              title: Text(Strings.blends),
+              icon: SvgPicture.asset(
+                'assets/images/ic_blends.svg',
+                width: 24,
+                height: 24,
+                color: _selectedIndex == 1 ? Colors.black : Colors.white,
+              ),
+            ),
             BottomNavigationBarItem(title: Text(Strings.recipes), icon: Icon(Icons.restaurant_menu)),
             BottomNavigationBarItem(title: Text(Strings.quizzes), icon: Icon(Icons.videogame_asset)),
             BottomNavigationBarItem(title: Text(Strings.settings), icon: Icon(Icons.settings)),
