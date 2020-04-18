@@ -23,11 +23,12 @@ class SpiceItem extends StatelessWidget {
               ),
             ),
           ),
-          Image.network(
-            spice.imageUrl,
+          FadeInImage.assetNetwork(
+            placeholder: 'assets/images/placeholder.png',
+            image: spice.imageUrl,
             fit: BoxFit.cover,
             width: 140,
-          ),
+          )
         ],
       ),
     );

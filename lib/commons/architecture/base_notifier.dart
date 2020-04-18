@@ -7,5 +7,6 @@ class BaseNotifier<S> extends ChangeNotifier {
 
   void updateState(S state) {
     _state = state;
+    notifyListeners();
   }
 }

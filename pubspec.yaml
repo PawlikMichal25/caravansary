@@ -32,4 +32,6 @@ flutter:
 
 
   assets:
-    - assets/database/spices.json
+    - assets/database/
+    - assets/images/
+    - assets/fonts/
