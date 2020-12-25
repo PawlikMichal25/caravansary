@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
         bottomNavigationBar: BottomNavigationBar(
           items: [
             BottomNavigationBarItem(
-              title: Text(Strings.spicesAndHerbs),
+              label: Strings.spicesAndHerbs,
               icon: SvgPicture.asset(
                 'assets/images/ic_spices.svg',
                 width: 24,
@@ -61,7 +61,7 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             BottomNavigationBarItem(
-              title: Text(Strings.blends),
+              label: Strings.blends,
               icon: SvgPicture.asset(
                 'assets/images/ic_blends.svg',
                 width: 24,
@@ -69,9 +69,9 @@ class _HomePageState extends State<HomePage> {
                 color: _selectedIndex == 1 ? Colors.black : Colors.white,
               ),
             ),
-            BottomNavigationBarItem(title: Text(Strings.recipes), icon: Icon(Icons.restaurant_menu)),
-            BottomNavigationBarItem(title: Text(Strings.quizzes), icon: Icon(Icons.videogame_asset)),
-            BottomNavigationBarItem(title: Text(Strings.settings), icon: Icon(Icons.settings)),
+            BottomNavigationBarItem(label: Strings.recipes, icon: Icon(Icons.restaurant_menu)),
+            BottomNavigationBarItem(label: Strings.quizzes, icon: Icon(Icons.videogame_asset)),
+            BottomNavigationBarItem(label: Strings.settings, icon: Icon(Icons.settings)),
           ],
           onTap: _onItemClicked,
           currentIndex: _selectedIndex,
